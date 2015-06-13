@@ -1,0 +1,268 @@
+Delivered-To: austingym@gmail.com
+Received: by 10.36.133.195 with SMTP id r186csp3257485itd;
+        Wed, 10 Jun 2015 23:50:46 -0700 (PDT)
+X-Received: by 10.170.44.205 with SMTP id 196mr9576291ykm.22.1434005445957;
+        Wed, 10 Jun 2015 23:50:45 -0700 (PDT)
+Return-Path: <bounce-md_30337868.55792fc5.v1-58db1044431c4fe3a12c8a9601d81778@mandrillapp.com>
+Received: from mandrill.jackrabbittech.com (mandrill.jackrabbittech.com. [198.2.186.227])
+        by mx.google.com with ESMTPS id u127si5111882yku.111.2015.06.10.23.50.45
+        for <austingym@gmail.com>
+        (version=TLSv1.2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Wed, 10 Jun 2015 23:50:45 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-md_30337868.55792fc5.v1-58db1044431c4fe3a12c8a9601d81778@mandrillapp.com designates 198.2.186.227 as permitted sender) client-ip=198.2.186.227;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-md_30337868.55792fc5.v1-58db1044431c4fe3a12c8a9601d81778@mandrillapp.com designates 198.2.186.227 as permitted sender) smtp.mail=bounce-md_30337868.55792fc5.v1-58db1044431c4fe3a12c8a9601d81778@mandrillapp.com;
+       dkim=pass header.i=@jackrabbittech.com
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=mandrill; d=jackrabbittech.com;
+ h=From:Subject:Reply-To:To:Message-Id:Date:MIME-Version:Content-Type; i=noreply@jackrabbittech.com;
+ bh=B+gGPaX7ewy9WbaS+UqEWKR+sFw=;
+ b=YI2N8ADCIu0+COFGftvvgoRCixDAHZ/ggFKUmxf6qZXw3Z3mAVfW2WlrM9mDdOYe7nHfvhQvDRbG
+   ABfKH+QwIDp8p1PUPQlwxOU5L/8Ds+UNcgr81fuQ9dBgV1W2QXlsVNzr6VwVXUUyQ1nKUJ7q4d+C
+   iSG/V4SJ5dYfwln4xDs=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=mandrill; d=jackrabbittech.com;
+ b=EMdVxqX029fHAQwrFKpS/ApfapJxsXcEhxyw1c5fnZp+9yy2UcyyrLdmbpjg9yih8/C36DxFnZm2
+   Dq3qKiX48UuT5WYmgzHrFBM5IOxIM/1DY2G/OiHU2vqPiE1tcKV5em5tpDPEy+pUUXP9nBIoCTUh
+   GHgYsV2qcue2nsAfPzw=;
+Received: from pmta02.mandrill.prod.suw01.rsglab.com (127.0.0.1) by mandrill.jackrabbittech.com id hf4nsa174bk6 for <austingym@gmail.com>; Thu, 11 Jun 2015 06:50:45 +0000 (envelope-from <bounce-md_30337868.55792fc5.v1-58db1044431c4fe3a12c8a9601d81778@mandrillapp.com>)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mandrillapp.com; 
+ i=@mandrillapp.com; q=dns/txt; s=mandrill; t=1434005445; h=From : 
+ Subject : Reply-To : To : Message-Id : Date : MIME-Version : 
+ Content-Type : From : Subject : Date : X-Mandrill-User : 
+ List-Unsubscribe; bh=qcYbOyrMd3sMgm5JbPU/FuOeHhloRXV5chURp1t3+co=; 
+ b=Z0Szh/ruXpFB4ZwF/BxiW9yfHyjNp1eNT83ys+4eif5JtSDtUfyYux1rK1syzZiPW29E2H
+ GOjP0qG0cXVJBq2CIfsJBbZfN8bQH5gWOyv7xZ2BWUDQUWjnjKVqNhzINTAW3gK2LfxILLD2
+ 6/YF1GodzdthjPrkJQJx6PlfnyB1c=
+From: World Elite Gymnastics <noreply@jackrabbittech.com>
+Subject: Team Practice During Nationals
+Return-Path: <bounce-md_30337868.55792fc5.v1-58db1044431c4fe3a12c8a9601d81778@mandrillapp.com>
+Received: from [72.15.206.157] by mandrillapp.com id 58db1044431c4fe3a12c8a9601d81778; Thu, 11 Jun 2015 06:50:45 +0000
+X-Jackrabbit: 507820|183159168|27812739
+Reply-To: <info@wegymnastics.com>
+To: <austingym@gmail.com>
+X-Report-Abuse: Please forward a copy of this message, including all headers, to abuse@mandrill.com
+X-Report-Abuse: You can also report abuse here: http://mandrillapp.com/contact/abuse?id=30337868.58db1044431c4fe3a12c8a9601d81778
+X-Mandrill-User: md_30337868
+Message-Id: <30337868.20150611065045.55792fc5431f81.39382386@mandrill.jackrabbittech.com>
+Date: Thu, 11 Jun 2015 06:50:45 +0000
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="_av-Yvj6ACWp1A1pwftNQg_TMA"
+
+--_av-Yvj6ACWp1A1pwftNQg_TMA
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+               World Elite Gymnastics      =3D=3D Dear World Elite Families=
+, =3D=3D
+
+ Notice regular team practice will be canceled June 20th =E2=80=93 June 29t=
+h as
+the 2015 USA Gymnastics National Championships will be taking place.
+
+ We want to wish all of our athletes and coaches the best of luck!
+
+ If you have a compulsory level athlete, you will have 3 alternative
+workouts to prepare for 2015 Level 5-7 Nationals Championships in Texas.
+
+ The following workout times will be:
+
+ Monday 6/22 5-7pm
+
+ Wednesday 6/24 5-7pm
+
+ Friday 6/26 5-7pm
+
+ Please note there will be *no Saturday practice for all levels*.
+
+  
+
+ 
+Planned athletes to attend:
+
+ Alyssa Friedman
+
+ Ashley Rayner
+
+ Avery Miller
+
+ Chavonne Valasquez
+
+ Conner Schwengel
+
+ Dakota Lucero
+
+ Daylene Higgins
+
+ Emily Gracida
+
+ Emily Slama
+
+ Garret Martin
+
+ Gianna Bianchini
+
+ Grace Schroeder
+
+ Isabella Maceranka
+
+ Jenna Gallaway
+
+ Jessica Deutsch
+
+ Johann Thrall
+
+ Kaela Bergeron
+
+ Karen Maceranka
+
+ Katelyn Mostero
+
+ Lana Duncan
+
+ Luke Johnson
+
+ Lyndsey Caputo
+
+ Melia Beck
+
+ Natalie Wolff
+
+ Paige Brakke
+
+ Riley Danna
+
+ Sarah Reed
+
+ Sophia Meek
+
+ Sophia Stalcup
+
+ Sydney Dews
+
+ Victoria Champine
+
+ Zoey Beckwith
+
+ 
+If you have any questions please feel free to contact us and we will get
+back to you as soon as possible.
+
+ Sincerely,
+
+ World Elite Gymnastics
+
+ Contact Info: Phone: (949) 888-1444
+ Email: worldelitegym@gmail.com <mailto:worldelitegym@gmail.com>
+ Address:
+
+  23031 Arroyo Vista
+ Rancho Santa Margarita, CA 92688 <https://goo.gl/maps/FS4gt>    
+                  We respect your privacy and will never share your
+information with a 3rd party. If you would like to opt out of our emails,
+or have any questions please email us at worldelitegym@gmail.com
+<mailto:worldelitegym@gmail.com>. Please note if you opt out you will not
+be able to receive your monthly invoice via email with our new class
+management system.
+
+--_av-Yvj6ACWp1A1pwftNQg_TMA
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><table class="body-wrap" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; width: 100%; margin: 0; padding: 20px;" bgcolor="#f6f6f6">
+<tbody>
+<tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">&nbsp;</td>
+<td class="container" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto; padding: 20px; border: 1px solid #f0f0f0;" bgcolor="#FFFFFF">
+<div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; max-width: 600px; display: block; margin: 0 auto; padding: 0;">
+<table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; width: 100%; margin: 0; padding: 0;">
+<tbody>
+<tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">
+<table style="border-collapse: collapse; border-spacing: 0px; margin: 0px auto; padding: 0px; text-align: left; vertical-align: top; width: 580px;" align="left">
+<tbody>
+<tr style="padding: 0; text-align: left; vertical-align: top;" align="left" valign="top">
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; border-collapse: collapse; color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; min-width: 0; padding: 0 0 10px; padding-right: 10px; text-align: left; vertical-align: top; width: 50%; word-break: break-word;" align="left" valign="top" width="50%"><img style="-ms-interpolation-mode: bicubic; clear: both; display: block; float: left; max-width: 100%; outline: none; text-decoration: none; width: 100px;" src="http://wegymnastics.com/wp-content/uploads/2015/06/we-sq-small.png" alt="" width="100" /></td>
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; border-collapse: collapse; color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; min-width: 0; padding: 0 0 10px; padding-right: 0; text-align: right; vertical-align: middle; width: 50%; word-break: break-word;" align="right" valign="middle" width="50%"><span style="color: #333; font-size: 16px; font-weight: bold;">World Elite Gymnastics</span></td>
+<td style="-moz-hyphens: auto; -webkit-hyphens: auto; border-collapse: collapse; color: #222; font-family: 'Helvetica', 'Arial', sans-serif; font-size: 14px; font-weight: normal; hyphens: auto; line-height: 19px; margin: 0; padding: 0; text-align: left; vertical-align: top; visibility: hidden; width: 0; word-break: break-word;" align="left" valign="top" width="0">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<h2 style="font-family: 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif; font-size: 28px; line-height: 1.2; color: #000; font-weight: 200; margin: 40px 0 10px; padding: 0;">Dear World Elite Families,</h2>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Notice regular team practice will be canceled June 20th &ndash; June 29th as the 2015 USA Gymnastics National Championships will be taking place.</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">We want to wish all of our athletes and coaches the best of luck!</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">If you have a compulsory level athlete, you will have 3 alternative workouts to prepare for 2015 Level 5-7 Nationals Championships in Texas.</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">The following workout times will be:</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Monday 6/22 5-7pm</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Wednesday 6/24 5-7pm</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Friday 6/26 5-7pm</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Please note there will be <strong>no Saturday practice for all levels</strong>.</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">&nbsp;</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><br /><span style="font-family: helvetica; font-size: 12pt;">Planned athletes to&nbsp;attend:</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Alyssa Friedman</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Ashley Rayner</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Avery Miller</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Chavonne Valasquez</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Conner Schwengel</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Dakota Lucero</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Daylene Higgins</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Emily Gracida</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Emily Slama</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Garret Martin</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Gianna Bianchini</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Grace Schroeder</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Isabella Maceranka</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Jenna Gallaway</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Jessica Deutsch</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Johann Thrall</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Kaela Bergeron</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Karen Maceranka</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Katelyn Mostero</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Lana Duncan</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Luke Johnson</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Lyndsey Caputo</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Melia Beck</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Natalie Wolff</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Paige Brakke</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Riley Danna</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Sarah Reed</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Sophia Meek</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Sophia Stalcup</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Sydney Dews</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Victoria Champine</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><span style="font-family: helvetica; font-size: 12pt;">Zoey Beckwith</span></p>
+<p style="color: #000000; font-family: 'Helvetica Neue', Helvetica, Helvetica, Arial, sans-serif; font-size: 11px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: 17.6000003814697px; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: #ffffff;"><br /><span style="font-family: helvetica; font-size: 12pt;">If you have any questions please feel free to contact us and we will get back to you as soon as possible.</span></p>
+<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; font-weight: normal; margin: 0 0 10px; padding: 0;">Sincerely,</p>
+<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; font-weight: normal; margin: 0 0 10px; padding: 0;">World Elite Gymnastics</p>
+<h3 style="margin: 0;">Contact Info:</h3>
+<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.6; font-weight: normal; margin: 30px 0 5px; padding: 0;">Phone: (949) 888-1444<br /> Email: <a href="mailto:worldelitegym@gmail.com">worldelitegym@gmail.com</a><br /> Address:</p>
+<address style="font-style: normal;"><a href="https://goo.gl/maps/FS4gt"> 23031 Arroyo Vista<br /> Rancho Santa Margarita, CA 92688</a></address></td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<table class="footer-wrap" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; width: 100%; clear: both !important; margin: 0; padding: 0;">
+<tbody>
+<tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">&nbsp;</td>
+<td class="container" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto; padding: 0;">
+<div class="content" style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; max-width: 600px; display: block; margin: 0 auto; padding: 0;">
+<table style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; width: 100%; margin: 0; padding: 0;">
+<tbody>
+<tr style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;">
+<td style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 100%; line-height: 1.6; margin: 0; padding: 0;" align="center">
+<p style="font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif; font-size: 12px; line-height: 1.6; color: #666; font-weight: normal; margin: 0 0 10px; padding: 0;">We respect your privacy and will never share your information with a 3rd party. If you would like to opt out of our emails, or have any questions please email us at <a href="mailto:worldelitegym@gmail.com">worldelitegym@gmail.com</a>. Please note if you opt out you will not be able to receive your monthly invoice via email with our new class management system.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</td>
+</tr>
+</tbody>
+</table><img src="http://mandrillapp.com/track/open.php?u=30337868&id=58db1044431c4fe3a12c8a9601d81778" height="1" width="1"></body></html>
+--_av-Yvj6ACWp1A1pwftNQg_TMA--
+
