@@ -19,10 +19,6 @@ Route::get('view/{email}', function($email) {
     if (Storage::exists('emails/' . $email)) {
         echo Storage::get('emails/' . $email);
     } else {
-        dd("no");
+        return view('message', ['title' => 'Not Found', 'message' => 'The email you\'re looking for could not be found. Invalid link?']);
     }
-});
-
-Route::get('test', function() {
-    $slack = App\Slack::send();
 });
