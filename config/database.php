@@ -115,8 +115,8 @@ return [
         'cluster' => false,
 
         'default' => [
-            'host'     => '127.0.0.1',
-            'port'     => 6379,
+            'host'     => env('CACHE1_HOST'),
+            'port'     => env('CACHE1_PORT'),
             'database' => 0,
         ],
 
