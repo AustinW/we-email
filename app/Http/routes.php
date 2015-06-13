@@ -19,6 +19,9 @@ Route::get('view/{email}', function($email) {
     if (Storage::exists('emails/' . $email)) {
         echo Storage::get('emails/' . $email);
     } else {
-        return view('message', ['title' => 'Not Found', 'message' => 'The email you\'re looking for could not be found. Invalid link?']);
+        return view('message', [
+            'title' => 'Not Found',
+            'message' => 'The email you\'re looking for could not be found. Invalid link?'
+        ]);
     }
 });
