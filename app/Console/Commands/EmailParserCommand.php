@@ -52,6 +52,10 @@ class EmailParserCommand extends Command
         
         $rand = substr(md5(time()), 0, 5);
         
-        Storage::put('emails/' . $date . '-' . str_slug($subject) . '-' . $rand, $text);
+        $name = $date . '-' . str_slug($subject) . '-' . $rand;
+        
+        Storage::put('emails/' . $name, $text);
+        
+        Slack::send('<' . url('view/' . $name) . '|' . date('m/d/y') . ' - ' . $subject . '>');
     }
 }

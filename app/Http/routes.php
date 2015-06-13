@@ -22,3 +22,7 @@ Route::get('view/{email}', function($email) {
         dd("no");
     }
 });
+
+Route::get('test', function() {
+    $slack = App\Slack::send();
+});
