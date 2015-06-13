@@ -25,3 +25,5 @@ Route::get('view/{email}', function($email) {
         ]);
     }
 });
+
+Route::resource('email', 'EmailController', ['only' => ['store']]);

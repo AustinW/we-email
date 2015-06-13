@@ -22,7 +22,8 @@
             "database"
         ],
         "psr-4": {
-            "App\\": "app/"
+            "App\\": "app/",
+            "App\\Controllers\\": "app/Http/Controllers"
         }
     },
     "autoload-dev": {
@@ -50,8 +51,5 @@
         "preferred-install": "dist"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "provide": {
-        "ext-mailparse": "*"
-    }
+    "prefer-stable": true
 }
