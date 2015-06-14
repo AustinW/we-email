@@ -3,7 +3,8 @@
         <title>World Elite Emails</title>
 
         <link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		
         <style>
             body {
                 margin: 0;
@@ -32,7 +33,7 @@
                 margin-bottom: 40px;
             }
 
-            .message {
+            .content {
                 font-size: 24px;
             }
         </style>
@@ -40,8 +41,13 @@
     <body>
         <div class="container">
             <div class="content">
-                <div class="title">{{ $title }}</div>
-                <div class="message">{{ $message }}</div>
+                <h1 class="title">Emails</h1>
+				
+				<ul class="nav nav-pills nav-stacked">
+					@foreach ($emails as $slug => $email)
+					<li><a href="/view/{{ $slug }}">{{ $email }}</a></li>
+					@endforeach
+				</ul>
             </div>
         </div>
     </body>
