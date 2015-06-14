@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1eea66b04e4cf4dbd92289d90b99a7e7",
+    "hash": "137e505869cef65a78d3262402b02d4c",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -1006,86 +1006,6 @@
                 "php"
             ],
             "time": "2015-05-02 15:40:40"
-        },
-        {
-            "name": "php-mime-mail-parser/php-mime-mail-parser",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-mime-mail-parser/php-mime-mail-parser.git",
-                "reference": "02528fe3ec9f862dfaa65ffa9d67977d073ffa13"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-mime-mail-parser/php-mime-mail-parser/zipball/02528fe3ec9f862dfaa65ffa9d67977d073ffa13",
-                "reference": "02528fe3ec9f862dfaa65ffa9d67977d073ffa13",
-                "shasum": ""
-            },
-            "require": {
-                "ext-mailparse": "*",
-                "php": ">=5.4.0"
-            },
-            "replace": {
-                "exorus/php-mime-mail-parser": "*",
-                "messaged/php-mime-mail-parser": "*"
-            },
-            "require-dev": {
-                "phpunit/php-token-stream": ">=1.3.0",
-                "phpunit/phpunit": "4.*",
-                "satooshi/php-coveralls": "0.*",
-                "squizlabs/php_codesniffer": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PhpMimeMailParser\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "bucabay",
-                    "email": "gabe@fijiwebdesign.com",
-                    "homepage": "http://www.fijiwebdesign.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "eXorus",
-                    "email": "exorus.spam@gmail.com",
-                    "homepage": "https://github.com/eXorus/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "M.Valinskis",
-                    "email": "M.Valins@gmail.com",
-                    "homepage": "https://code.google.com/p/php-mime-mail-parser",
-                    "role": "Developer"
-                },
-                {
-                    "name": "eugene.emmett.wood",
-                    "email": "gene_w@cementhorizon.com",
-                    "homepage": "https://code.google.com/p/php-mime-mail-parser",
-                    "role": "Developer"
-                },
-                {
-                    "name": "alknetso",
-                    "email": "alkne@gmail.com",
-                    "homepage": "https://code.google.com/p/php-mime-mail-parser",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Fully Tested Mailparse Extension Wrapper for PHP 5.4+",
-            "homepage": "https://github.com/php-mime-mail-parser/php-mime-mail-parser",
-            "keywords": [
-                "MimeMailParser",
-                "mail",
-                "mailparse",
-                "mime"
-            ],
-            "time": "2015-05-23 13:53:57"
         },
         {
             "name": "predis/predis",
@@ -3379,7 +3299,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "php-mime-mail-parser/php-mime-mail-parser": 20,
         "maknz/slack": 20
     },
     "prefer-stable": true,
