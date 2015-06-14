@@ -40,9 +40,11 @@ web1:
   network_dirs:
     storage1:
       - storage
+      - bootstrap/cache
   before_deploy:
-    # - 'php artisan -n migrate'
+    - 'php artisan -n migrate'
   after_deploy:
+    - 'php artisan config:cache'
     - 'php artisan -n cache:clear'
     - 'rm -f storage/framework/views/*'
     - 'chmod -R 777 storage'
