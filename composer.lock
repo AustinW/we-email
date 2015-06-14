@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "137e505869cef65a78d3262402b02d4c",
+    "hash": "5b3ef496107e20f0eed751251f851285",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -751,16 +751,16 @@
         },
         {
             "name": "maknz/slack",
-            "version": "dev-master",
+            "version": "1.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/maknz/slack.git",
-                "reference": "7a48ae72b5d821caadadc2546d60bdd4fc9367dd"
+                "reference": "7f21fefc70c76b304adc1b3a780c8740dfcfb595"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maknz/slack/zipball/7a48ae72b5d821caadadc2546d60bdd4fc9367dd",
-                "reference": "7a48ae72b5d821caadadc2546d60bdd4fc9367dd",
+                "url": "https://api.github.com/repos/maknz/slack/zipball/7f21fefc70c76b304adc1b3a780c8740dfcfb595",
+                "reference": "7f21fefc70c76b304adc1b3a780c8740dfcfb595",
                 "shasum": ""
             },
             "require": {
@@ -796,7 +796,7 @@
                 "laravel",
                 "slack"
             ],
-            "time": "2015-06-04 09:24:27"
+            "time": "2015-06-03 03:35:16"
         },
         {
             "name": "monolog/monolog",
@@ -3298,9 +3298,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "maknz/slack": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
