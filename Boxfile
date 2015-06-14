@@ -43,7 +43,7 @@ web1:
   before_deploy:
     # - 'php artisan -n migrate'
   after_deploy:
-    # - 'php artisan -n cache:clear'
+    - 'php artisan -n cache:clear'
     - 'rm -f storage/framework/views/*'
     - 'chmod -R 777 storage'
 
