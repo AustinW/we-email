@@ -40,6 +40,6 @@ class EmailController extends Controller
         
         $email->save();
         
-        Slack::send('<' . url('view/' . $email->id) . '|' . date('m/d/y') . ' - ' . $subject . '>');
+        Slack::send('<' . url('email/' . $email->id) . '|' . date('m/d/y') . ' - ' . $subject . '>');
     }
 }
