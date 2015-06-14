@@ -48,6 +48,7 @@ web1:
   after_deploy:
     - 'php artisan -n cache:clear'
     - 'rm -f storage/framework/views/*'
+    - 'chmod -R 777 storage'
 
 database1:
   type: mysql
