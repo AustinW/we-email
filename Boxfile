@@ -19,7 +19,7 @@ global:
 
 build:
   type: php
-  version: 5.6
+  version: 5.5
   stability: production
   exec:
     - 'composer install --no-interaction --prefer-source'
