@@ -7,29 +7,17 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Input, Storage, Slack;
+use App\Email;
 
 class EmailController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return Response
-     */
-    public function index()
+    public function show($id)
     {
-        //
+        $email = Email::find($id);
+        
+        return view('email', ['email' => $email, 'content' => Storage::get($email->body_file)]);
     }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return Response
-     */
-    public function create()
-    {
-        //
-    }
-
+    
     /**
      * Store a newly created resource in storage.
      *
@@ -41,56 +29,17 @@ class EmailController extends Controller
         
         $html = Input::get('html');
         
-        $date = date('m-d-y');
-        $rand = substr(md5(time()), 0, 5);
-        $name = $date . '-' . str_slug($subject) . '-' . $rand;
+        $emailFile = md5(time());
         
-        Storage::put('emails/' . $name, $html);
+        Storage::put($emailFile, $html);
         
-        Slack::send('<' . url('view/' . $name) . '|' . date('m/d/y') . ' - ' . $subject . '>');
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function update($id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return Response
-     */
-    public function destroy($id)
-    {
-        //
+        $email = new Email;
+        $email->reply_to = 'worldelitegym@gmail.com';
+        $email->subject = $subject;
+        $email->body_file = $emailFile;
+        
+        $email->save();
+        
+        Slack::send('<' . url('view/' . $email->id) . '|' . date('m/d/y') . ' - ' . $subject . '>');
     }
 }

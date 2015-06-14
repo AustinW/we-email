@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>{{ $title }}</title>
+        <title>{{ $email->subject }}</title>
 
     </head>
     <body>
