@@ -25,10 +25,6 @@ function getEmailName($file) {
     return $name;
 }
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
 Route::get('view/{email}', function($email) {
     if (Storage::exists('emails/' . $email)) {
         return view('email', ['title' => getEmailName($email), 'content' => Storage::get('emails/' . $email)]);
@@ -40,7 +36,7 @@ Route::get('view/{email}', function($email) {
     }
 });
 
-Route::get('all', function() {
+Route::get('/', function() {
     $files = str_replace('emails/', '', Storage::files('emails'));
     
     $names = array_map('getEmailName', $files);
