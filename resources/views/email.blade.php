@@ -4,7 +4,7 @@
 
     </head>
     <body>
-			<p style="font-size:24px"><a href="/all">&laquo; View All</a><br /></p>
+			<p style="font-size:24px"><a href="/">&laquo; View All</a><br /></p>
 			{!! $content !!}
     </body>
 </html>
