@@ -13,7 +13,7 @@
 
 global:
   env:
-    - APP_ENV: production
+    - APP_ENV: local
     - CACHE_DRIVER: redis
     - SESSION_DRIVER: redis
 
@@ -30,7 +30,6 @@ web1:
   version: 5.6
   httpd_document_root: public
   php_extensions:
-    - mailparse
     - mcrypt
     - mbstring
     - pdo_mysql
