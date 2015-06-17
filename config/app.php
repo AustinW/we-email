@@ -203,4 +203,7 @@ return [
 
     ],
 
+    'emails' => storage_path('app/emails'),
+    'attachments' => storage_path('app/attachments'),
+
 ];

@@ -10,6 +10,7 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+use App\Attachment;
 
 Route::get('view/{email}', function($email) {
     if (Storage::exists('emails/' . $email)) {
@@ -27,5 +28,15 @@ Route::get('/', function() {
     
     return view('emails', ['emails' => $emails]);
 });
+
+Route::get('attachment/{id}', ['as' => 'attachment', function($id) {
+    $attachment = Attachment::find($id);
+
+    if ($attachment) {
+        return response()->download(Config::get('app.attachments') . '/' . $attachment->name, $attachment->original_name);
+    } else {
+        return response('Could not find the file specified', 404);
+    }
+}]);
 
 Route::resource('email', 'EmailController', ['only' => ['show', 'store']]);
