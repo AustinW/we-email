@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'model' => App\User::class,
+    'model' => Pingpong\Admin\Entities\User::class, // App\User::class,
 
     /*
     |--------------------------------------------------------------------------
