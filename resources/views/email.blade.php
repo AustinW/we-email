@@ -8,9 +8,14 @@
         {!! $content !!}
         <hr />
         <div style="font-size:24px">
-            @foreach ($email->attachments as $attachment)
-               <li>{!! link_to_route('attachment', $attachment->original_name, $attachment->id) !!}</li>
-            @endforeach
+            @if (count($email->attachments))
+            <h3>Attachments:</h3>
+            <ul>
+                @foreach ($email->attachments as $attachment)
+                <li>{!! link_to_route('attachment', $attachment->original_name, $attachment->id) !!}</li>
+                @endforeach
+            </ul>
+            @endif
         </div>
     </body>
 </html>

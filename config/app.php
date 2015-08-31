@@ -141,8 +141,6 @@ return [
          * Vendor Service Providers...
          */
         Maknz\Slack\SlackServiceProvider::class,
-        Pingpong\Admin\Providers\SupportServiceProvider::class,
-        Pingpong\Admin\AdminServiceProvider::class,
 
         /*
          * Application Service Providers...
